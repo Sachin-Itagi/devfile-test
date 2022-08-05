@@ -9,6 +9,6 @@ apiVersion: 1.0.0
           branch: 'java1.11'
     components: 
         id: 'redhat/java/latest'
-        preferences: {
+        preferences: 
           java.server.launchMode: 'Standard'
         type: 'chePlugin'
