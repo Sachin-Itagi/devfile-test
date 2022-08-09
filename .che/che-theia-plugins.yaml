@@ -1,0 +1,7 @@
+- id: redhat/java8/latest
+  override:
+    preferences:
+      java.server.launchMode: LightWeight
+      editor.autoSave: off
+    sidecar:
+       memoryLimit: 1280Mi
